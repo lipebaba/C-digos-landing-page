@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e0c3;
+    color: #4b2a14;
+}
+
+header {
+    background-color: #8b4513;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.logo {
+    width: 100px; /* Tamanho da logo (ajuste conforme necessário) */
+    height: auto; /* Manter a proporção da imagem */
+    display: block; /* Para evitar qualquer comportamento estranho no layout */
+    margin: 0 auto 10px; /* Centralizar a logo e adicionar espaço abaixo dela */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.menu h2 {
+    font-size: 36px;
+    color: #4b2a14;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: #f5e0c3;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+}
+
+.menu-item p {
+    font-size: 18px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.location h2 {
+    font-size: 36px;
+}
+
+.location iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.contact {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4b2a14;
+    color: #fff;
+}
